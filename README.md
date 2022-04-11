@@ -13,8 +13,8 @@ npm run dev
 npm run build
 ```
 
-# porps
-
+> porps
+```
 options = [
   {
     value: 1,
@@ -29,3 +29,4 @@ options = [
     label: 'checkbox3'
   }
 ]
+```

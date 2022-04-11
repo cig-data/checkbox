@@ -1,0 +1,39 @@
+.anCheckbox{
+  display: flex;
+  flex-flow: row;
+  
+}
+.anCheckbox .anCheckboxLi{
+  margin-right: 24px;
+  cursor: pointer;
+  
+  
+}
+img{
+  width: 13px;
+  height: 13px;
+  cursor: pointer;
+  border: 1px solid #fff;
+}
+img:hover {
+  border: 1px solid#0F164E;
+  border-radius: 2px;
+}
+span{
+  font-size: 12px;
+  margin-left: 4px;
+  color: #0F164E;
+}
+span:hover{
+  /* font-weight: 700; */
+}
+/* .anCheckboxSelected{
+  // font-weight: bolder;
+} */
+.anCheckboxColumn {
+  flex-flow: column;
+  margin-left: 20px;
+}
+.anCheckboxColumn .anCheckboxLi {
+  margin-bottom: 10px;
+}
